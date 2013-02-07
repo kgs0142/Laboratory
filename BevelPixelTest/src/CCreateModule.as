@@ -19,19 +19,19 @@ package
     
     public class CCreateModule extends FlxState
     {
-        [Embed(source="../bin/assets/TV.png")]
+        [Embed(source="../bin_/assets/TV.png")]
         private static const BMP_TV:Class;
-        [Embed(source="../bin/assets/Door.png")]
+        [Embed(source="../bin_/assets/Door.png")]
         private static const BMP_DOOR:Class;
-        [Embed(source="../bin/assets/FishPic.PNG")]
+        [Embed(source="../bin_/assets/FishPic.PNG")]
         private static const BMP_FISH:Class;
-        [Embed(source="../bin/assets/Hanger-BIG.png")]
+        [Embed(source="../bin_/assets/Hanger-BIG.png")]
         private static const BMP_BIG_HANGER:Class;
-        [Embed(source="../bin/assets/Hanger-Small.PNG")]
+        [Embed(source="../bin_/assets/Hanger-Small.PNG")]
         private static const BMP_SMALL_HANGER:Class;
-        [Embed(source="../bin/assets/PlayerAnim.PNG")]
+        [Embed(source="../bin_/assets/PlayerAnim.PNG")]
         private static const BMP_PLAYER:Class;
-        [Embed(source="../bin/assets/RightStep.mp3")]
+        [Embed(source="../bin_/assets/RightStep.mp3")]
         private static const SNE_STEP:Class;
         
         private var m_sprPlayer:FlxSprite
